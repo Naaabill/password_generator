@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSWORD GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <img src="image/lastpass.png" class="logo">
+        </div>
+    </nav>
+    <header class="header">
+
+        <div class="Upper">
+            <h1>Instantly generate a secure, random password with the LastPass online tool</h1>
+            <h4>Go beyond online generators with <a href="#">LasthPass Premium</a>. No matter what device or app you’re using, all your passwords are automatically generated, saved and synced – wherever you go.</h4>
+        </div>
+        
+
+        <div class="password">
+            <div class="display">
+                <div class="input">
+                    <input type="text" class="word"id="text">
+                    
+                </div>    
+                <img src="" alt="">
+                <button class="button" onclick="window.location.reload();">@</button>          
+            </div>
+            <div class="lign"></div>
+        </div>
+        <div class="custom">
+            <h2>Customize your password</h2>
+            
+            <div class="hey">
+                <div class="length">
+                    <p>Password Length</p>
+                    <input type="range" class="gliss" id="fgliss" value="20" min="0" max="20"  >
+                    
+                    
+                </div>
+        
+                <div class="settings">
+                    <div class="fling">
+                        <input type="checkbox" class="box" >
+                        <p class="fre">Uppercase</p>
+                    </div>
+                    <div class="fling">
+                        <input type="checkbox" class="box">
+                        <p class="fre">Lowercase</p>
+                    </div>
+                    <div class="fling">
+                        <input type="checkbox" class="box" id="numbers">
+                        <p class="fre">Numbers</p>
+                    </div>
+                    <div class="fling">
+                        <input type="checkbox" class="box">
+                        <p class="fre">Symbols</p>
+                    </div>
+                </div>
+            </div>
+            
+    
+        </div>
+    </header>
+    
+    <script src="script.js"></script>
+</body>
+</html>

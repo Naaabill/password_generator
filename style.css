@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Rubik";
+}
+
+nav{
+    height: 58px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+}
+
+.logo{
+    width: 200px;
+    
+    
+}
+
+.header{
+    background-color: #CAEDF7;
+    height: 100%;
+}
+.Upper{
+    padding-bottom: 20px;
+    padding-top: 56px;
+}
+
+
+h1{
+    font-size: 3rem;
+    line-height: 56px;
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h4{
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.password{
+    height: 180px;   
+    width: 100%;
+    
+}
+
+.display{
+    background-color: white;
+    height: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    margin-top: 40px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    display: flex;
+    padding: 15px;
+}
+
+
+
+.custom{
+    background-color: white;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border-radius: 16px;
+    border: 1px ; 
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.hey{
+    display: flex;
+}
+
+.word{
+    margin-top: 15px;
+    width: 650px;
+    height: 80px;
+    resize: none;
+    text-align: left;
+    border: none;
+    font-size:3rem;
+}
+
+.word:active{
+    border: none;
+    outline: none;
+}
+
+
+.lign{
+    background-color: #368149;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 830px;
+}
+
+h2{
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 40px;
+
+}
+
+.fling{
+    display: flex;
+    text-align:center;
+}
+
+.gliss{
+    cursor: pointer;
+    width: 260px;
+}
+
+.fre{
+    font-size: 1.9rem;
+
+}
+.length{
+    margin-right: 300px;
+    font-size: 2rem;
+}
+
+.box{
+    cursor: pointer;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.button{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    cursor: pointer;
+}
