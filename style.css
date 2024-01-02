@@ -155,11 +155,10 @@ h2{
 
 .button{
     border: none;
-    background-color: black;
     color: white;
     height: 40px;
     width: 40px;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 40px;
     cursor: pointer;
 }
